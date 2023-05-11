@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+        <hr>
+        <h2>Register Akun Baru!</h2>
+        <h4>Isilah form di bawah ini</h4>
+        
+        <form action=" " method="get" target="_blank">
+            <p><label for="fname">First name :</label></p>
+            <input type="text" id="fname" name="fname"><br>
+
+            <p><label for="lname">Last name :</label></p>
+            <input type="text" id="lname" name="lname"><br>
+
+            <p>Gender :</p>
+            <div >
+                <input type="radio" id="jenisKelamin" value="lakiLaki">Male
+                <input type="radio" id="jenisKelamin" value="perempuan">Female
+                <input type="radio" id="jenisKelamin" value="other">Other
+            </div>
+
+            <p>Nationality: </p>
+            <div>
+                <select name="nationality" id="nationality">
+                  <optgroup>
+                    <option value="indonesian">Indonesian</option>
+                    <option value="arabian">Arabian</option>
+                    <option value="chinese">Chinese</option>
+                  </optgroup> 
+                </select>
+                <br>
+            </div>
+
+            <p>Sedang Fokus Belajar: </p>
+            <div>
+                <select name="toolsbelajar" id="toolsbelajar">
+                    <optgroup>
+                        <option value="reactjs">React js</option>
+                        <option value="vuejs">Vue js</option>
+                        <option value="javascript">JavaScript</option>
+                    </optgroup>
+                  </select>
+                  <br>
+            </div>
+
+            <p>Language Spoken: </p>
+            <div>
+                <input type="checkbox" id="Language" name="Language1" value="english">English
+                <input type="checkbox" id="Language" name="Language2" value="indonesia">Indonesia
+                <input type="checkbox" id="Language" name="Language3" value="other">Other
+            </div>
+
+                <p>Deskripsi diri saya :</p>
+                <textarea cols="20" rows="2"></textarea>
+                
+            <p></p>
+            <button type="submit" formmethod="POST">Register</button>
+            <br><br>
+          </form>
+      
+</body>
+</html>

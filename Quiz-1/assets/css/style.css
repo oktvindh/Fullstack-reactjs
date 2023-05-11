@@ -1,0 +1,151 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins";
+    font-size: 22px;
+}
+
+/* Buatlah styling setiap section dibawah ini */
+/*features html*/
+.container {
+    width: 90%;
+    margin: 0 auto;
+    }
+
+.container_features {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+
+.container_features-card p{
+    margin: 20px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.container_features-card h3 {
+    text-align: center;
+    margin: 20px;
+}
+
+h1{
+    margin-top: 50px;
+}
+
+/*index html*/
+.container_hero {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: rgb(1, 34, 115);
+    height: 150px;
+    color: white;
+    border-radius: 10px;
+}
+
+
+.container_hero h1{
+    margin-top:  25px  ; 
+    text-align: left;
+    margin-left: 20px;
+
+}
+
+.container_hero p{
+    margin-top: 25px;
+    text-align: right;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+
+.container_support {
+    margin-top: 50px;
+    height: 100px;
+}
+
+.container_support p{
+    text-align: center;
+    font-size: 10px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.logo img {
+    margin: 50px;
+}
+
+.container_bottom p{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+
+
+/*pricing html*/
+.container_pricing{
+    background-color: red;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url('https://cdn.pixabay.com/photo/2016/03/26/13/09/workspace-1280538_960_720.jpg');
+    margin-top: 50px;
+
+}
+
+.container_pricing .container_pricing-card {
+    margin: 30px 10px;
+    width: 27%;
+    border-radius: 10px;
+    backdrop-filter: blur(7px) saturate(180%);
+    -webkit-backdrop-filter: blur(7px) saturate(180%);
+    background-color: rgba(250, 241, 241, 0.65);
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    height: 170px;
+    
+}
+
+.container_pricing-card h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.container_pricing-card small {
+    text-align: center;
+    font-size: 15px;
+    margin-left: 120px;
+}
+
+li {
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+/* Aturlah breakpoint dibawah ini menggunakan media queries agar responsive dibawah sini*/
+
+
+@media screen and (max-width: 780px )
+{
+    .container {
+        width: 100%;
+    }
+    .container_pricing {
+        width: 100%;
+        flex-direction: column;
+        margin: 0;
+        background: rebeccapurple;
+    }
+.container_pricing-card {
+    width: 90%;
+    align-items: center;
+}
+}
+
+

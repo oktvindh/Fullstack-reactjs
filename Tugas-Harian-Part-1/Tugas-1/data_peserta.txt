@@ -1,0 +1,6 @@
+Data Peserta Sanbercode Bootcamp ReactJS
+1. Nama: Indah Oktaviana
+2. Email: indahoktav02@gmail.com
+3. Sistem Operasi yang digunakan: ubuntu 20.04
+4. Akun Gitlab: oktvindh
+5. Akun Telegram: @oktvindh

@@ -1,0 +1,76 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+
+/* Buatlah styling section top dibawah ini */
+.top{
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+    height: 150px;  
+}
+
+.top h2{
+    padding-top: 40px;
+}
+
+i {
+    margin: 20px;
+}
+
+/* Buatlah styling section container dan card dibawah ini */
+.container{
+   width: 100%;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   row-gap: 50px;
+   column-gap: 20px;
+   font-family: sans-serif;
+   background-color: #fafafa;
+  
+}
+
+.card{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    background-color: white;
+}
+
+img{
+    width: 100%;
+}
+
+.description {
+    padding: 20px;
+}
+
+.description p{
+    padding-top: 20px;
+}
+
+/* Aturlah breakpoint dibawah ini menggunakan media queries agar responsive */
+@media screen and (min-width: 480px) and (max-width: 768px){
+    .container {
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        
+    }
+}
+
+@media screen and (max-width: 480px){
+    .container {
+        display: block;
+        width: 100%;
+    }
+
+    .top{
+        font-size: 15px;
+    }
+
+    .card{
+        margin-top: 30px;
+    }
+}
